@@ -1,4 +1,5 @@
 // g++ -Llib -mwindows main.cpp resources.o -lSDL2 -lSDL2_image -lSDL2_ttf -o Backgammon.exe 
+// g++ -Llib -static-libstdc++ -mwindows main.cpp resources.o -lSDL2 -lSDL2_image -lSDL2_ttf -I./dependencies/include/GLFW -L./dependencies/lib -lglfw3  -lm -o Backgammon.exe
 // ^ compile settings
 // ./Backgammon
 #define SDL_MAIN_HANDLED
